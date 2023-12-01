@@ -17,7 +17,7 @@ int main()
     cout<<"Component of vector "<< v1.x <<" "<<v1.y<<" "<<v1.z<<" along vector "<<v2.x<<" "<<v2.y<<" "<<v2.z<<" is\n ";
     cout <<v3.x<<" "<<v3.y<<" "<<v3.z<<" \n";
 
-    Vector3 v4((v1.crossproduct(v1,v2)).x/v1.modulus(v1.crossproduct(v1,v2)),(v1.crossproduct(v1,v2)).y/v1.modulus(v1.crossproduct(v1,v2)),(v1.crossproduct(v1,v2)).z/v1.modulus(v1.crossproduct(v1,v2)));
+    Vector3 v4(v1.x-v3.x,v1.y-v3.y,v1.z-v3.z);
 
     cout<<"Component of vector "<<v1.x<<" "<<v1.y<<" "<<v1.z<<" perpendicular to vector "<<v2.x<<" "<<v2.y<<" "<<v2.z<<" is\n ";
     cout <<v4.x<<" "<<v4.y<<" "<<v4.z;
