@@ -1,9 +1,5 @@
-# Computer-Graphics - Ray Tracing & Mathematical Foundations
+# Assignment-0
 
-This is the Project Repository for Computer Graphics - Ray Tracing and Foundations, offered as a winter project under the GameDev Club. 
+Write a C++ program to implement a class called Shape with virtual member functions for calculating area and perimeter. Derive classes such as Circle, Rectangle, and Triangle from the Shape class and override virtual functions accordingly.
 
-Mentors: Naman Kumar Jaiswal (Naman-K-Jaiswal), Harshit Sharma (HarshitSharma1105), and Nevish Pathe (npxx).
-
-# Ratification Criteria
-
-Ratification will be primarily rolled out on the basis of assignments solutions.
+You can edit the `shape.cpp` file.
