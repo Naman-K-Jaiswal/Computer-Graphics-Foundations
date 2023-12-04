@@ -1,3 +1,6 @@
+#ifndef VECTOR3_H
+#define VECTOR3_H
+
 #include <iostream>
 #include <cmath>
 
@@ -129,7 +132,7 @@ double operator*(Vector3 v1,Vector3 v2)
 {
     return v1.dotproduct(v1,v2);
 }
-Vector3 operatorx(Vector3 v1,Vector3 v2)
+Vector3 operator%(Vector3 v1,Vector3 v2)
 {
     return v1.crossproduct(v1,v2);
 }
@@ -137,3 +140,5 @@ Vector3 operator/(int a,Vector3 v2)
 {
     return v2.mulscalar(a,v2);
 }
+
+#endif
