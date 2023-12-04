@@ -2,7 +2,10 @@
 
 In the previous session, we learnt image generation/manipulation through pixel values. This assignment aims to encourage creativity and hands-on experience in generating patterns in images using C++. 
 
-Modify the `image.cpp` file in `files` folder and generate the images/patterns as your liking (e.g. checkerboard, spirals, circles, some drawing? or a :) cat) in `.ppm` format and commit your images as your submission.
+Modify the `image.cpp` file in `files` folder and generate the images/patterns as your liking (e.g. checkerboard, spirals, circles, some drawing? or a :) cat) in `.ppm` format and `.png` and commit your images as your submission.
+
+(Right click on image after opening ppm viewer and save as follows)
+![image](./files/save.png)
 
 ## Bonus
 
