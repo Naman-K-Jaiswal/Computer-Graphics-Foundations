@@ -39,7 +39,13 @@ int main() {
     for (int j = 0; j < image_height; ++j) {
         clog << "\rScanlines remaining: " << (image_height - j) << ' ' << flush;
         for (int i = 0; i < image_width; ++i) {
-            auto pixel_color = color(double(i)/(image_width-1), double(j)/(image_height-1), 0);
+            // auto pixel_color = color(double(i)/(image_width-1), double(j)/(image_height-1), 0);
+            auto pixel_color = color();
+            if(i < image_width/2) 
+                pixel_color = color(0, 1, 0);
+            else
+                pixel_color = color(1, 0, 0);
+
             write_color(cout, pixel_color);
         }
     }
